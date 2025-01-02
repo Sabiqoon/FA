@@ -119,7 +119,7 @@ void HandlerOptE(int x) {
 
 	for (int i = 0; i < 11; i++) {
 		for (int p = 1; p <= x; p++) {
-			printf("%d^%d = %d\n", i, p, int(pow(i, p)));
+			printf("%d^%d = %d\n", i, p, (int)pow(i, p));
 		}
 		printf("\n");
 	}
